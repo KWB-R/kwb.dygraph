@@ -1,0 +1,12 @@
+Package: kwb.dygraph
+Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
+Depends: dygraphs
+Imports: kwb.utils, kwb.event
+Author: Hauke Sonnenberg
+Version: 0.0.99
+License: GPL
+Title: additional functions to be used with dygraph-objects
+Description: additional functions to be used with dygraph-objects, 
+  e.g. shading of areas or drawing of lines representing time periods within
+  events (given by begin and end times).
+  
