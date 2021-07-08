@@ -1,5 +1,5 @@
 Package: kwb.dygraph
-Title: Additional Functions to be Usedwith Dygraph-Objects
+Title: Additional Functions to be Used with dygraph-Objects
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Hauke",
@@ -27,8 +27,7 @@ Imports:
 Suggests: 
     covr
 Remotes: 
-    github::kwb-r/kwb.event,
-    github::kwb-r/kwb.utils
+    github::kwb-r/kwb.event
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
