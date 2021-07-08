@@ -21,9 +21,14 @@ License: MIT + file LICENSE
 URL: https://github.com/KWB-R/kwb.dygraph
 BugReports: https://github.com/KWB-R/kwb.dygraph/issues
 Imports: 
-    dygraphs
+    dygraphs,
+    kwb.event,
+    kwb.utils
 Suggests: 
     covr
+Remotes: 
+    github::kwb-r/kwb.event,
+    github::kwb-r/kwb.utils
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

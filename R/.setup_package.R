@@ -27,9 +27,13 @@ usethis::use_vignette("tutorial")
 ### R functions
 if(FALSE) {
   ## add your dependencies (-> updates: DESCRIPTION)
-  pkg_dependencies <- c('dygraphs')
+  pkg_dependencies <- c('dygraphs', "kwb.event", "kwb.utils")
 
   sapply(pkg_dependencies, usethis::use_package)
+
+  desc::desc_add_remotes("github::kwb-r/kwb.event",normalize = TRUE)
+  desc::desc_add_remotes("github::kwb-r/kwb.utils",normalize = TRUE)
+
 
 }
 
