@@ -52,6 +52,7 @@ addEventShades <- function
 #'
 #' @return modified dygraph object
 #' @export
+#' @importFrom kwb.event hsSigWidth
 
 addEventLines <- function # addEventLines
 (
