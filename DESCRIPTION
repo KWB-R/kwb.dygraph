@@ -1,12 +1,30 @@
 Package: kwb.dygraph
-Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
-Depends: dygraphs
-Imports: kwb.utils, kwb.event
-Author: Hauke Sonnenberg
-Version: 0.0.99
-License: GPL
-Title: additional functions to be used with dygraph-objects
-Description: additional functions to be used with dygraph-objects, 
-  e.g. shading of areas or drawing of lines representing time periods within
-  events (given by begin and end times).
-  
+Title: Additional Functions to be Used with dygraph-Objects
+Version: 0.1.0
+Authors@R: c(
+    person("Hauke", "Sonnenberg", , "hauke.sonnenberg@kompetenz-wasser.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9134-2871")),
+    person("Michael", "Rustler", , "michael.rustler@kompetenz-wasser.de", role = "ctb",
+           comment = c(ORCID = "0000-0003-0647-7726")),
+    person("FAKIN", role = "fnd"),
+    person("KURAS", role = "fnd"),
+    person("Kompetenzzentrum Wasser Berlin gGmbH (KWB)", role = "cph")
+  )
+Description: Additional functions to be used with dygraph-objects e.g.
+    shading of areas or drawing of lines representing time periods within
+    events (given by begin and end times).
+License: MIT + file LICENSE
+URL: https://github.com/KWB-R/kwb.dygraph
+BugReports: https://github.com/KWB-R/kwb.dygraph/issues
+Imports: 
+    dygraphs,
+    kwb.event,
+    kwb.utils
+Suggests: 
+    covr
+Remotes: 
+    github::kwb-r/kwb.event
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
